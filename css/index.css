@@ -1,0 +1,81 @@
+.banner{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 660px;
+}
+
+.nav{
+    background-color: #414658;
+  
+}
+.nav li a{
+    color: white;
+}
+.nav li a:hover{
+    color:#dc3545;
+}
+.navSlider{
+    position: fixed;
+    top : 0px;
+    left : 0px;
+    bottom: 0px;
+    z-index: 33;
+}
+.sliderDiv{
+    background-color: #414658;
+ 
+}
+.open{
+    cursor: pointer;
+    /* position: absolute; */
+}
+.singers h3{
+    background-color:rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    margin: 0px;
+    padding : 10px;
+}
+.singers p{
+    background-color: #ccc;
+    margin : 0px;
+}
+
+.time-bg{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.icona {
+    width: 2rem;
+    height: 2rem;
+}
+.icona{
+    color :rgb(89, 88, 88);
+    background-color: white;
+}
+.icona:hover {
+    background-color: #D62E33;
+    color: white;
+}
+
+.btn{
+    background-color: #D62E33;
+    color: white;
+}
+#char{
+    color :#D62E33;
+}
+.icon{
+    position :absolute;
+    top : 5%;
+    left : 60%;
+    color: white;
+    cursor: pointer; 
+}
+.singers div{
+    display: none;
+}
